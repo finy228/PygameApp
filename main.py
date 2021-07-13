@@ -6,7 +6,7 @@ silver = (194, 194, 194)
 black = (0, 0, 0)
  
 pygame.init()
-screen = pygame.display.set_mode((600, 400),RESIZABLE, 32)
+screen = pygame.display.set_mode((1920, 1080),RESIZABLE, 32)
 clock = pygame.time.Clock()
 font = pygame.font.SysFont("Ubuntu Condensed", 35, bold=False, italic=False)
 year = 2021
